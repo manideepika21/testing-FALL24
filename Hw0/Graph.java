@@ -16,7 +16,7 @@ public class Graph {
     public Graph(int size) {
         if (size < 0) throw new IllegalArgumentException("Size must be non-negative");
         this.nodeCount = size;
-        //this.edges = new boolean[size][size];
+        this.edges = new boolean[size][size];
     }
 
     public String toString() {
